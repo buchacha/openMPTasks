@@ -1,5 +1,8 @@
 // *** Task #0 (Integral, parallel for, reduction, num_threads)
 // *** compile command: g++ -fopenmp -o 0.out -std=c++11 0.cpp
+// *** question 1: why if there are 1000 steps (integralN) in for loop
+// *** then we have no efficiency, moreover, parallel algo is slower? 
+// *** If there are 1 000 000 steps then efficiency is clear.
 
 #include "omp.h"
 #include <iostream>
